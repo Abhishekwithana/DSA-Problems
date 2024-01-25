@@ -6,7 +6,7 @@ class Solution {
     int noOfPaths = 0;
     public int pseudoPalindromicPaths (TreeNode root) {
         solve(root, 0);
-        return noOfPp;
+        return noOfPaths;
     }
 
     public void solve(TreeNode root, int path) {
